@@ -1,4 +1,4 @@
-# Contributing to Next.js App
+# Contributing to Onwardism
 
 First off, thank you for considering contributing to this project! It's people like you that make this project better.
 
@@ -50,8 +50,8 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nextjs-app.git
-   cd nextjs-app
+   git clone https://github.com/yourusername/onwardism-site.git
+   cd onwardism-site
    ```
 
 2. Install dependencies:

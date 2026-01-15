@@ -1,6 +1,8 @@
-# Next.js App
+# Onwardism
 
-A modern web application built with Next.js, React, Tailwind CSS, Lucide React, and shadcn/ui.
+Open-source platform for technology media, research, and AI.
+
+Built for engineering-led teams to make technical and strategic decisions.
 
 ## Getting Started
 
@@ -22,7 +24,9 @@ npm run dev
 - **React 18** - UI library
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling
+- **Ubuntu Font** - Typography
 - **Lucide React** - Icons
+- **next-themes** - Dark mode support
 - **shadcn/ui** - UI components (utilities included)
 
 ## Project Structure
@@ -30,6 +34,10 @@ npm run dev
 ```
 ├── src/
 │   ├── app/
+│   │   ├── careers/page.tsx
+│   │   ├── company/page.tsx
+│   │   ├── products/page.tsx
+│   │   ├── resources/page.tsx
 │   │   ├── legal/
 │   │   │   ├── terms/page.tsx
 │   │   │   ├── cookies/page.tsx
@@ -37,8 +45,24 @@ npm run dev
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
 │   │   └── globals.css
+│   ├── components/
+│   │   ├── app/
+│   │   │   ├── app-header.tsx
+│   │   │   └── app-footer.tsx
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   └── input.tsx
+│   │   ├── cookie-consent.tsx
+│   │   ├── theme-provider.tsx
+│   │   └── theme-toggle.tsx
 │   └── lib/
 │       └── utils.ts
+├── public/
+│   └── icons/
+│       ├── favicon.png
+│       ├── icon-dark.png
+│       └── icon-light.png
 ├── package.json
 ├── tsconfig.json
 ├── tailwind.config.ts
@@ -47,12 +71,16 @@ npm run dev
 
 ## Features
 
-- ✅ Responsive design
-- ✅ Dark mode support (via Tailwind)
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Dark/Light mode toggle
+- ✅ Fixed header with mobile menu
+- ✅ Cookie consent banner
 - ✅ Legal pages (Terms, Cookies, Privacy)
 - ✅ TypeScript support
 - ✅ shadcn/ui utilities
 - ✅ Lucide icons
+- ✅ Ubuntu font family
+- ✅ Custom primary color (#2e3a8c)
 
 ## Available Scripts
 
@@ -60,3 +88,22 @@ npm run dev
 - `npm run build` - Build for production
 - `npm start` - Start production server
 - `npm run lint` - Run ESLint
+
+## Color Scheme
+
+- **Primary**: #2e3a8c (Deep blue)
+- **Background**: Dynamic (light/dark mode)
+- **Foreground**: Dynamic (light/dark mode)
+
+## Pages
+
+- **Home** (`/`) - Hero section with tagline
+- **Products** (`/products`) - Product information
+- **Resources** (`/resources`) - Guides and documentation
+- **Company** (`/company`) - About the company
+- **Careers** (`/careers`) - Job opportunities
+- **Legal Pages** (`/legal/*`) - Terms, Privacy, Cookies
+
+## License
+
+MIT License - See [LICENSE](LICENSE) file for details.

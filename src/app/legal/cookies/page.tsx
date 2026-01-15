@@ -24,11 +24,11 @@ export default function CookiesPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">How We Use Cookies</h2>
-            <p className="text-muted-foreground mb-4">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">How We Use Cookies</h2>
+            <p className="text-sm sm:text-base text-muted-foreground mb-4">
               We use cookies for the following purposes:
             </p>
-            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+            <ul className="list-disc list-inside space-y-2 text-sm sm:text-base text-muted-foreground">
               <li>To enable certain functions of the website</li>
               <li>To provide analytics and track usage</li>
               <li>To store your preferences</li>
@@ -37,25 +37,25 @@ export default function CookiesPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Types of Cookies We Use</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Types of Cookies We Use</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="text-xl font-medium mb-2">Essential Cookies</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg sm:text-xl font-medium mb-2">Essential Cookies</h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
                   These cookies are necessary for the website to function and cannot be switched
                   off in our systems.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-medium mb-2">Analytics Cookies</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg sm:text-xl font-medium mb-2">Analytics Cookies</h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
                   These cookies allow us to count visits and traffic sources so we can measure and
                   improve the performance of our site.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-medium mb-2">Functionality Cookies</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg sm:text-xl font-medium mb-2">Functionality Cookies</h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
                   These cookies enable the website to provide enhanced functionality and
                   personalization.
                 </p>
@@ -64,8 +64,8 @@ export default function CookiesPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Managing Cookies</h2>
-            <p className="text-muted-foreground">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Managing Cookies</h2>
+            <p className="text-sm sm:text-base text-muted-foreground">
               You can set your browser to refuse all or some browser cookies, or to alert you when
               websites set or access cookies. If you disable or refuse cookies, please note that
               some parts of this website may become inaccessible or not function properly.
